@@ -15,8 +15,8 @@ public class PassingCars {
     }
 
     var res = 0;
-    for (int i = 0; i < a.length; i++) {
-      if (a[i] == 0) {
+    for (int j : a) {
+      if (j == 0) {
         res += numberOfOnes;
         if (res > 1000000000) {
           return -1;
