@@ -11,6 +11,7 @@ public class NumberOfDiscIntersections {
   // 1. split all data to array of points, with coordinate x and boolean isStart
   // 2. sort by x in ASC order
   // 3. iterate over each point and update counter depending on isStart parameter
+  // 4. on each iteration step add current counter
   public static int solution(int[] a) {
     var pairs = new Pair[a.length * 2];
     var j = 0;
